@@ -1,0 +1,149 @@
+body{
+    background: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 85rem;
+
+    
+    
+    
+}
+.card{
+    display: block;
+    border-style:none;
+    background-color: #584e51;
+    background: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: 200% 200%;
+    width: 18rem;
+    height: 28rem;
+    margin: 0 auto;
+    border-radius: 60px;
+    border: 3px solid #866757;
+
+    box-shadow: 30px 30px 100px #3e3e52;
+    
+}
+
+.panel_botones{
+    display: grid;
+    place-items: center;
+    border: 50rem;
+    
+    
+}
+
+.titulo{
+    display: grid;
+    place-items: center;
+    font-family:monospace;
+    color: white;
+}
+
+.panel{
+    display: grid;
+    place-items: center;
+
+}
+
+#display{
+    font-family:monospace;
+    text-align: center;
+    margin-top: 1rem;
+    width: 90%;
+    height: 7rem;
+    background: url(fondo.jpg);
+    border-radius: 50px;
+    border: 3px solid #866757;
+    border-style:groove;
+    color: white;
+    
+    background-repeat: no-repeat;
+    background-position: 500% 0%;
+    font-size: 3rem;
+    }
+
+    .signos{
+        font-size: 30px;
+        font-family:monospace;
+        font-weight: 3;
+        margin-left: 0%;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 20px;
+        border-style:dashed;
+        border: 3px solid #a8410d;
+        cursor: pointer;
+        background-color: #af5021;
+    
+        box-shadow: 20px 20px 100px #3e3e52;
+    
+    }
+
+    .numeros{
+        font-size: 30px;
+        font-weight: 3;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin-bottom: 0.3rem;
+        margin-right: 0rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 20px;
+        border-style: dashed;
+        border: 2px solid #424246;
+        background-color: #54546b;
+        box-shadow: 20px 20px 100px #48485a;
+        cursor: pointer;
+    }
+
+
+
+    .borrar{
+        font-size: 30px;
+        font-family:monospace;
+        font-weight: 3;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 10px;
+        background-color: #978d90;
+        border-style:double;
+        border: 3px solid #7e7876;
+        box-shadow: 20px 20px 100px #3e3e52;
+        cursor: pointer;
+
+    }
+
+    .igual{
+        font-size: 30px;
+        font-family: monospace;
+        font-weight: 3;
+        margin-bottom: 0rem;
+        margin-right: 0rem;
+        width: 3.4rem;
+        height: 3.4rem;
+        border-radius: 20px;
+        border-style:double;
+        border: 3px solid #a8410d;
+        background-color: #ce5011;
+        box-shadow: 20px 20px 100px #3e3e52;
+        cursor: pointer;
+    }
+
+    .numeros:hover{
+        background-color:#6a6a6e;
+    }
+
+    .signos:hover{
+        background-color:#d16721; 
+    }
+
+    .igual:hover{
+        background-color:#d16721;
+    }
+
+    .borrar:hover{
+        background-color:#6a6a6e;
+    }

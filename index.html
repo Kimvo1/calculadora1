@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>mi calculadora</title>
+</head>
+
+<body>
+    
+    <div class="titulo">
+        <h1>Mi Calculadora</h1>
+    </div>
+    <section class="card">
+    <div class="panel">
+        <input type="text" id="display" disabled>
+    </div>
+    <br>
+    
+        <div class="panel_botones">
+            <div class="botones">
+                <button class="numeros" onclick="appendToDisplay(7)">7</button>
+                <button class="numeros" onclick="appendToDisplay(8)">8</button>
+                <button class="numeros" onclick="appendToDisplay(9)">9</button>
+                <button class="signos" onclick="appendToDisplay('+')">+</button> <!--suma-->
+                <br>
+
+                <button class="numeros" onclick="appendToDisplay(4)">4</button> <!--limpia pantalla-->
+                <button class="numeros" onclick="appendToDisplay(5)">5</button> <!--limpia pantalla-->
+                <button class="numeros" onclick="appendToDisplay(6)">6</button> <!--limpia pantalla-->
+                <button class="signos" onclick="appendToDisplay('-')">-</button> <!--limpia pantalla-->
+                <br>
+
+                <button class="numeros" onclick="appendToDisplay(1)">1</button> <!--limpia pantalla-->
+                <button class="numeros" onclick="appendToDisplay(2)">2</button> <!--limpia pantalla-->
+                <button class="numeros" onclick="appendToDisplay(3)">3</button> <!--limpia pantalla-->
+                <button class="signos" onclick="appendToDisplay('*')">*</button> <!--limpia pantalla-->
+                <br>
+
+                <button class="numeros" onclick="appendToDisplay(0)">0</button>
+                <button class="borrar" onclick="clearDisplay()">C</button> <!--limpia pantalla-->
+                <button class="igual" onclick="calculateResult()">=</button> <!--calcula el resultado-->
+                <button class="signos" onclick="appendToDisplay('/')">/</button> <!--agrega el operador-->
+                
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
